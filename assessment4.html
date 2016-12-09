@@ -1,0 +1,249 @@
+<!doctype html>
+<html lang="en-US">
+  <head>
+    <title>Assessment 4</title>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" type="text/css" href="assets/basic_styles.css">
+  </head>
+  <body>
+
+
+
+  <main>
+    <input type="checkbox" id="trick">
+    <div id="left">
+      <dl class="todos cf">
+        <dt class="spacer"><h1>All Todos</dt></h1>
+        <dd class="spacer"><p>18</p></dd>
+        <dt class="active">02/16</dt>
+        <dd><p>8</p></dd>
+        <dt>03/16</dt>
+        <dd><p>2</p></dd>
+        <dt>04/16</dt>
+        <dd><p>1</p></dd>
+        <dt>05/16</dt>
+        <dd><p>1</p></dd>
+        <dt>06/16</dt>
+        <dd><p>6</p></dd>
+      </dl>
+
+      <dl class="completed cf">
+        <dt class="spacer"><h1>Completed</dt></h1>
+        <dd>02/15</dd>
+        <dd>03/15</dd>
+        <dd>04/15</dd>
+        <dd>05/15</dd>
+        <dd>06/14</dd>
+      </dl>
+    </div>
+
+    <div class="cc">
+      <div class="fluid cf">
+        <div id="right">
+
+        <div class="burger">
+          <label for="trick">
+            <img alt="#" src="assets/icon_hamburger.png">
+          </label>
+        </div>
+
+          <dl class="lead cf">
+            <dt><h1>02/16</h1></dt>
+            <dd><p>8</p></dd>
+          </dl>
+
+          <table>
+            <thead>
+              <tr>
+                <td class="first"><a href="#">+</a></td>
+                <td><a href="#">Add new to do</a></td>
+                <td class="last"><img alt="#" src="assets/icon_trash.png"></td>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td class="first">
+                  <input type="checkbox" id="cb1">
+                  <label for="cb1">
+                    <div class="chkbx"></div>
+                  </label>
+                </td>
+                <td>
+
+                  <input type="checkbox" id="modcheck">
+
+                  <div class="modal">
+                    <form>
+                      <fieldset>
+                        <dl>
+                          <dt>
+                            <label for="title">Title</label>
+                          </dt>
+                          <dd>
+                            <input type="text" name="title" id="title" placeholder="Item 1">
+                          </dd>
+                        </dl>
+
+                        <dl class="due-date">
+                          <dt>
+                            <label for="day">Due Date</label>
+                          </label>
+                          </dt>
+
+                          <dd>
+                            <div class="sbox">
+                              <select name="day" id="day">
+                                <option disabled>Day</option>
+                                <option>15</option>
+                                <option selected>16</option>
+                              </select>
+                            </div><!--
+
+                            --><p>/</p><!--
+
+                            --><div class="sbox">
+                              <select name="month">
+                                <option disabled selected>Month</option>
+                                <option>Jan</option>
+                                <option >Feb</option>
+                              </select>
+                            </div><!--
+
+                            --><p>/</p><!--
+
+                            --><div class="sbox">
+                              <select name="year">
+                                <option disabled selected>Year</option>
+                                <option>2015</option>
+                                <option>2016</option>
+                              </select>
+                            </div>
+                          </dd>
+                        </dl>
+
+                        <dl>
+                          <dt>
+                            <label for="description">Description</label>
+                          </dt>
+                          <dd>
+                            <textarea id="Description" placeholder="Description" name="description"></textarea>
+                          </dd>
+                        </dl>
+                        <a href="#" class="button">Save</a>
+                        <a href="#" class="button">Mark As Complete</a>
+                      </fieldset>
+                    </form>
+                  </div>
+
+                  <label for="modcheck" class="item">
+                    Item 1
+                    <div class="background"></div>
+                  </label>
+                </td>
+                <td class="last"><img alt="#" src="assets/icon_trash.png"></td>
+              </tr>
+
+              <tr>
+                <td class="first">
+                  <input type="checkbox" id="cb2">
+                  <label for="cb2">
+                    <div class="chkbx"></div>
+                  </label>
+                </td>
+                <td><a href="#">Item 2</a></td>
+                <td class="last"><img alt="#" src="assets/icon_trash.png"></td>
+              </tr>
+
+              <tr>
+                <td class="first">
+                  <input type="checkbox" id="cb3">
+                  <label for="cb3">
+                    <div class="chkbx"></div>
+                  </label>
+                </td>
+                <td class="done">Item 3</td>
+                <td class="last"><img alt="#" src="assets/icon_trash.png"></td>
+              </tr>
+
+              <tr>
+                <td class="first">
+                  <input type="checkbox" id="cb4">
+                  <label for="cb4">
+                    <div class="chkbx"></div>
+                  </label>
+                </td>
+                <td class="done">Item 4</td>
+                <td class="last"><img alt="#" src="assets/icon_trash.png"></td>
+              </tr>
+
+              <tr>
+                <td class="first">
+                  <input type="checkbox" id="cb5">
+                  <label for="cb5">
+                    <div class="chkbx"></div>
+                  </label>
+                </td>
+                <td class="done">Item 5</td>
+                <td class="last"><img alt="#" src="assets/icon_trash.png"></td>
+              </tr>
+
+              <tr>
+                <td class="first">
+                  <input type="checkbox" id="cb6">
+                  <label for="cb6">
+                    <div class="chkbx"></div>
+                  </label>
+                </td>
+                <td>Item 6</td>
+                <td class="last"><img alt="#" src="assets/icon_trash.png"></td>
+              </tr>
+
+              <tr>
+                <td class="first">
+                  <input type="checkbox" id="cb7">
+                  <label for="cb7">
+                    <div class="chkbx"></div>
+                  </label>
+                </td>
+                <td>Item 7</td>
+                <td class="last"><img alt="#" src="assets/icon_trash.png"></td>
+              </tr>
+
+              <tr>
+                <td class="first">
+                  <input type="checkbox" id="cb8">
+                  <label for="cb8">
+                    <div class="chkbx"></div>
+                  </label>
+                </td>
+                <td>Item 8</td>
+                <td class="last"><img alt="#" src="assets/icon_trash.png"></td>
+              </tr>
+
+              <tr>
+                <td class="first">
+                  <input type="checkbox" id="cb9">
+                  <label for="cb9">
+                    <div class="chkbx"></div>
+                  </label>
+                </td>
+                <td>Item 9</td>
+                <td class="last"><img alt="#" src="assets/icon_trash.png"></td>
+              </tr>
+
+
+
+
+            </tbody>
+          </table>
+
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+   
+  
+  </body>
+</html> 
