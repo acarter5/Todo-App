@@ -120,8 +120,7 @@ dl.todos dd {
   text-align: right;
   }
 
-
-dl.todos dt h1 {
+ dt.prime {
   font-size: 18px;
 }
 
@@ -165,7 +164,7 @@ dl.todos dt.active + dd p {
   position: relative;
 }
 
-#left dl dt h1 {
+ dt.prime {
   margin-left: -38px;
   padding-left: 38px;
   background-image: url(icon_list.png);
@@ -174,7 +173,7 @@ dl.todos dt.active + dd p {
   background-position: 0 50%;
 }
 
-#left dl.completed dt h1 {
+dl.completed dt.prime {
   background-image: url(icon_checkbox.png);
   }
 
@@ -208,9 +207,6 @@ dl.todos dt.active + dd p {
   width: 78px;
   display: block;
   float: left;
-}
-
-#right dl.lead dt h1 {
   font-size: 21px;
 }
 
@@ -262,14 +258,15 @@ table input[type="checkbox"] {
   display: none;
 }
 
-div.chkbx {
+span.chkbx {
   width: 14px;
   height: 14px;
+  display: block;
   background: url(icon_checkbox_table.png) 0 0 no-repeat;
   margin: 0 auto;
 }
 
-table input[type="checkbox"]:checked + label .chkbx {
+table input[type="checkbox"]:checked + label span.chkbx {
   background: url(icon_checkbox_table_checked.png) 0 0 no-repeat;
 }
 
